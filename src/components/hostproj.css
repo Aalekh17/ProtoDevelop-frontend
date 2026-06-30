@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#host{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap:40px;
+  margin-top: 50px;
+  margin-bottom: 100px;;
+  padding-top:30px;
+
+}
+#hostform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(255, 255, 255);
+  width:50%;
+  height: fit-content;
+  padding:30px 30px 30px 30px;
+  border-radius: 5px;;
+}
+#hostit{
+  font-size: xxx-large;
+  font-weight: bolder;
+  color:darkcyan;
+  text-decoration: solid;
+}
+#boxi{
+  font-weight: bold;
+  font-size: large;
+}
+#name{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+#description{
+  width: 80%;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+#tags{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+#links{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+#hostbut{
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(235, 39, 42);
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+#but-image{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 15px;
+}

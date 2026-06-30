@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#logback{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  width:100vw;
+  gap:30px;
+}
+#logolog{
+  height:350px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 15px 15px rgb(250, 244, 244);
+
+}
+#logformback{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border:2px solid black;
+  border-radius: 10px;
+  padding:20px;
+  gap:30px;
+}
+#loghead{
+  font-size: xx-large;
+  font-weight: bolder;
+  text-decoration: underline;
+  
+
+}
+#logform{
+  display:flex;
+  flex-direction: column;
+  margin-top:20px;
+  border:2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding:10px 10px 10px 10px;
+
+}
+#pass{
+  font-size: larger;
+  font-weight: bolder;
+}
+#email-label{
+  font-size: larger;
+  font-weight: bolder;
+}
+#email{
+  height:30px;
+  width:300px;
+  margin-top:10px;
+  font-size: medium;
+  padding-left:10px;
+}
+#password{
+  height:30px;
+  width:300px;
+  margin-top:10px;
+  font-size: medium;
+  padding-left:10px;
+}
+#loginbut{
+  height:40px;
+  border-radius: 5px;
+  border:none;
+  background-color: cadetblue;
+  color:white;
+  font-size: large;
+  font-weight: bolder;
+
+}

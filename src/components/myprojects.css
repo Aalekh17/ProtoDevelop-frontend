@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#myproj-back{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+  padding:20px;
+}
+#myproj-head{
+  font-size:xxx-large;
+  font-weight:bolder;
+}
+#myproj-card{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  margin-top:20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+#myproj-img{
+  width:350px;
+  height:350px;
+  border-radius:10px;
+}
+#myproj-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  margin:10px 10px 10px 10px;
+}
+#myproj-title{
+  font-size:xx-large;
+  font-weight:bolder;
+  
+
+}
+#myproj-link{
+  font-size:large;
+  color:blue;
+  font-weight: bolder;
+}
+#link-head{
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+#myproj-buttons{
+  display: flex;
+  gap:20px;
+}
+#myproj-leave{
+  padding:10px 20px;
+  font-weight: bolder;
+  background-color:#ee3413;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+#myproj-details{
+  padding:10px 20px;
+  font-weight: bolder;
+  background-color:#5425d7;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}

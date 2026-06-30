@@ -1,0 +1,103 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+#det-back{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+  width:100vw;
+  gap:40px;
+  padding-bottom:30px;
+
+}
+#det-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:20px;
+  gap:40px;
+}
+#det-img{
+  height:400px;
+  width:800px;
+  border-radius: 5px;
+}
+#det-title{
+  font-size: xxx-large;
+  font-weight: bolder;
+  margin-top:20px;
+}
+#det-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:40px;
+  
+}
+#det-desc{
+  font-size: large;
+  font-weight: bolder;
+  width:800px;
+  border: 1px solid gray;
+  padding:20px 20px 20px 20px;
+}
+#det-tags{
+  font-size: large;
+  font-weight: bolder;
+}
+#det-members{
+  font-size: large;
+  font-weight: bolder;
+}
+#det-github{
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
+#det-lead{
+  font-size: large;
+  font-weight: bolder;
+  border: 1px solid gray;
+  width:800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:max-content;
+  gap:20px;
+  padding:20px 20px 20px 20px;
+}
+#det-buttons{
+  display: flex;
+  gap:20px;
+  padding-bottom:20px;
+}
+#join-btn{
+  height:40px;
+  width:100px;
+  background-color:rgb(46, 209, 117);
+  border:none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bolder;
+}
+#favourite-btn{
+  height:40px;
+  width:170px;
+  background-color: rgb(236, 57, 188);
+  border:none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bolder;
+}
+#det-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  gap:20px;
+  width:800px;
+  padding:20px 20px 20px 20px;
+}
